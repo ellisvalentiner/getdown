@@ -1,0 +1,22 @@
+Package: getdown
+Title: Easily Install the 'Downverse'
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Ellis",
+           family = "Valentiner",
+           role = c("aut", "cre"),
+           email = "ellis.valentiner@gmail.com")
+Description: The 'downverse' is a set of packages that are centered around
+    converting R Markdown documents into many static and dynamic output formats,
+    including HTML, PDF, papers, posters, presentations, and more.
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    rmarkdown,
+    blogdown,
+    bookdown,
+    pagedown
+    pkgdown,
+    posterdown,
+    xaringan,

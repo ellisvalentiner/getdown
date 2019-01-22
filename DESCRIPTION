@@ -6,17 +6,22 @@ Authors@R:
            family = "Valentiner",
            role = c("aut", "cre"),
            email = "ellis.valentiner@gmail.com")
-Description: The 'downverse' is a set of packages that are centered around
-    converting R Markdown documents into many static and dynamic output formats,
-    including HTML, PDF, papers, posters, presentations, and more.
+Description: The 'downverse' is a set of packages that are
+    centered around converting R Markdown documents into many static and
+    dynamic output formats, including HTML, PDF, papers, posters,
+    presentations, and more.
 License: GPL-3 | file LICENSE
-Encoding: UTF-8
-LazyData: true
+Depends:
+    R (>= 3.1)
 Imports:
-    rmarkdown,
     blogdown,
     bookdown,
     pagedown
     pkgdown,
     posterdown,
-    xaringan,
+    rmarkdown,
+    xaringan
+Suggests:
+    covr
+Encoding: UTF-8
+LazyData: true
